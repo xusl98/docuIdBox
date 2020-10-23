@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/DECORATION/1.7.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/DECORATION/1.7.0 http://maven.apache.org/xsd/decoration-1.7.0.xsd"
+	name="Example Maven Site">     <!-- name attribute defines title of the site -->
+
+	<skin>  <!-- Enable Fluido skin -->
+		<groupId>org.apache.maven.skins</groupId>
+		<artifactId>maven-fluido-skin</artifactId>
+		<version>1.9</version>
+	</skin>
+
+	<custom>
+		<fluidoSkin>
+			<topBarEnabled>false</topBarEnabled>         <!-- Enable top menu -->
+			<sideBarEnabled>true</sideBarEnabled>      <!-- Disable left side menu -->
+		</fluidoSkin>
+	</custom>
+
+	<body>
+		<breadcrumbs>
+			<item name="Inicio"
+				href="../../../target/site/index.html" />
+			<item name="Documentación"
+				href="../../../target/site/documentacion.html" />
+		</breadcrumbs>
+		<!--<menu ref="parent" inherit="top"/> -->       <!-- Add link to parent project to the menu (for multimodule projects) -->
+		<!--<menu ref="reports" inherit="top"/> -->      <!-- Add set of links to standard Maven reports like tests and checkstyle -->
+		<!--<menu ref="modules"/> -->                    <!-- Add set of links to modules in multimodule project -->
+		<menu name="Enlaces">                             <!-- Add links to pages to menu -->
+			<item name="Inicio" href="../../../target/site/index.html" />
+			<item name="Guía" href="../../../guia/target/site/index.html" />
+			<item name="Documentación" href="../../../target/site/documentacion.html">
+				<item name="Página 1" href="./pagina1.html" />
+				<item name="Página 2" href="./pagina2.html" />
+				<item name="Página 3" href="./pagina3.html" />
+			</item>
+		</menu>
+
+		<links>                                         <!-- Add any links to an "External Links" submenu -->
+			<item name="GitHub repository"
+				href="https://github.com/gelin/maven-markdown" />
+		</links>
+	</body>
+
+</project>

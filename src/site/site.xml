@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/DECORATION/1.7.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/DECORATION/1.7.0 http://maven.apache.org/xsd/decoration-1.7.0.xsd"
+	name="Example Maven Site">     <!-- name attribute defines title of the site -->
+
+	<skin>  <!-- Enable Fluido skin -->
+		<groupId>org.apache.maven.skins</groupId>
+		<artifactId>maven-fluido-skin</artifactId>
+		<version>1.9</version>
+	</skin>
+
+	<custom>
+		<fluidoSkin>
+			<topBarEnabled>false</topBarEnabled>         
+			<sideBarEnabled>true</sideBarEnabled>      
+		</fluidoSkin>
+	</custom>
+
+	<body>
+		
+		
+		<menu name="Enlaces" >                             
+			<item name="Inicio" href="./index.html" />
+			<item name="Guía" href="./guia/index.html" />
+			<item name="Documentación" href="./documentacion.html">
+				<item name="Página 1" href="./paginas/pagina1/pagina1.html" />
+				<item name="Página 2" href="./paginas/pagina2/pagina2.html" />
+				<item name="Página 3" href="./paginas/pagina3/pagina3.html" />
+			</item>
+		</menu>
+
+		
+	</body>
+
+</project>
