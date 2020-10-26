@@ -1,13 +1,13 @@
-#Documentación
-## Lista de páginas
+#Documentaciï¿½n
+## Lista de pï¿½ginas
 
 
 
 | :--------------------------------------------------------------------- | :-----------------------------------------: |
-| [1. Guía Markdown](./paginas/guiamd/guiamd.html)                    | Guía sobre los elementos básicos de markdown             |
-| [2. Documentación Spring](./paginas/springDoc/springDoc.html)       | Guía y primeros pasos de la documentación de Spring |
-| [3. Página 3](./paginas/pagina3/pagina3.html)                       | Descripción página 3 |
-| [4. Organización de señales](./paginas/organizacionDeSenales/oSenales.html)                       | Jerarquía de los datos con los que se van a trabajar |
+| [1. Guï¿½a Markdown](./paginas/documentation/guiamd/guiamd.html)                    | GuÃ­a sobre los elementos bÃ¡sicos de markdown             |
+| [2. Documentaciï¿½n Spring](./paginas/documentation/springDoc/springDoc.html)       | GuÃ­a y primeros pasos de la documentaciÃ³n de Spring |
+| [3. Pï¿½gina 3](./paginas/documentation/pagina3/pagina3.html)                       | DescripciÃ³n pÃ¡gina 3 |
+| [4. Organizaciï¿½n de seï¿½ales](./paginas/documentation/organizacionDeSenales/oSenales.html)                       | JerarquÃ­a de los datos con los que se van a trabajar |
     
    
     
