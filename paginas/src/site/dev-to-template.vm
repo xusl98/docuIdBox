@@ -17,7 +17,7 @@
 		lastId = -1;
 		var secciones = document.querySelectorAll("section h2");
 		var lista = document.getElementById("lista");
-		var html = "<div><a id=\"back\" href=\"\">Volver al Índice</a></div>";
+		var html = "<div><a id=\"back\" href=\"\">Volver al &Iacute;ndice</a></div>";
 		var index = 1;
 		for (seccion of secciones){
 			seccion.parentElement.id = seccion.innerText.split(" ").join("_");
