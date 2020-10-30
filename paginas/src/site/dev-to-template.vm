@@ -42,7 +42,7 @@
 		}
 		lista.innerHTML = html;
 		
-		$('#back').attr("href", "../../../index.html");
+		$('#back').attr("href", "../index.html");
 		
 		$('p').has('img').css({'text-align': 'center', 'padding-left': '15%', 'padding-right': '15%'});
 		
